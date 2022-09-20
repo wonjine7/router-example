@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import HomePage from './page/HomePage';
-import Aboutpage from './page/Aboutpage';
+import AboutPage from './page/AboutPage';
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div>
       <Routes>
         <Route path='/' element={<HomePage/>}/>
-        <Route path='/about' element={<Aboutpage/>}/>
+        <Route path='/about' element={<AboutPage/>}/>
 
       </Routes>
       
